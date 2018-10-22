@@ -12,6 +12,7 @@ process.stdin.on('readable', function() {
                 break;
             case 'ver':
                 console.log(process.env);
+                break;
             case 'Papayas':
                 process.stdout.write('Mangoes and papayas are very tasty :) This is my case test \n');
                 break;
